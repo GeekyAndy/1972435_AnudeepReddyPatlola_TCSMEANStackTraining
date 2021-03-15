@@ -1,0 +1,39 @@
+Project Report:
+
+Github Repository Link:
+https://github.com/GeekyAndy/1972435_AnudeepReddyPatlola_TCSMEANStackTraining.github
+
+Documentation:
+
+This report is in regard to the Design Sell project, as part of MEAN Stack Training programme.
+
+Aim: To develop a Design Sell webpage, where the user can sell the templates of the websites he developed.
+
+Project:
+In this project, I have created a html file with the name template.html. I used tags like h1, table, form, 
+button, div and many other tags on this page. I have linked a css file named temp.css to this html file 
+using the link tag in the head part.
+
+<h1>
+I used this heading tag to create a heading on the top of the page and added the css properties like
+text-align, font-family, background color and text color.
+
+<table>
+I used the table tag to create a table showing the deals for the day on the website and provided many css 
+properties like margin, border, text-align and background-color to it. I also included the th and td tags 
+for these properties while using the multispecific selector in the css file.
+
+<div>
+I used the div tag especially to hold the description text as in a container. I added css properties like
+border, background-color, margin, padding and font-size to the container.
+
+<p>
+I used the paragraph tag to write the contents and description on the page. I have included the properties
+like font-family, font-weight, text-decoration-line in the css page for this tag inside the div container.
+
+<button>
+I used the button tag to create a buy button at the end of the page after selecting the items in the select tag.
+I added the css properties like border, background-color and text-align to this element.
+
+As a result, I developed a html page with css properties for many of the elements present in the html file.
+I have included various properties and also used different types of selectors to meet the project goal.
