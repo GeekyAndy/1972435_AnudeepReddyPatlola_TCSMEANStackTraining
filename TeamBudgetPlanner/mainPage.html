@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+	<style>
+	.myDiv{
+		border:5px outset black;
+		position:absolute;
+		top:30%;
+		left:40%;
+		width:300px;
+		height:200px;
+	}
+	.myDiv1{
+		border:5px outset black;
+		position:absolute;
+		width: 300px;
+		height: 250px;
+		left:40%;
+	}
+	.myDiv2{
+		border:5px outset black;
+		position:absolute;
+		width: 400px;
+		height: 250px;
+		left:35%;
+		text-align:center;
+	}
+	
+		
+	</style>
+    <script src="main.js"></script>
+</head>
+<body align = "center">
+	<br/><br/><br/><br/>
+    <h1 id="main"> Main Page </h1>
+	<br/><br/>
+	<div class="myDiv">
+	<br/><br/>
+	<a href="#programManager">Program Manager</a>
+	<br/><br/>
+	<a href="#financeTeams">Finance Teams </a>
+	
+	</div>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+	<h1 id="programManager"> Program Managers </h1>
+	<br/><br/>
+	<div class="myDiv1">
+	<br/><br/>
+	<form>
+	<label><u>Add New Budget</label>
+	<br/><br/>
+	<label><u>Client Name</label>
+	<input type="text" name="client" id="client">
+	<br/><br/>
+	<label><u>Project Name</label>
+	<input type="text" name="project" id="project">
+	<br/><br/>
+	<label><u>Budget</label>
+	<input type="text" name="budget" id="budget">
+	<br/><br/>
+	<input type="button" value ="Add" onClick="add()" />
+	<input type="button" value="Clear" onClick="onClear()" />
+	<br/><br/>
+	<a href="#main">Back</a>
+	
+	</div>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/>
+	
+	<h1 id="financeTeams"> Finance Teams </h1>
+	<br/><br/>
+	<div class="myDiv2">
+	<form>
+	<br/>
+	<label><u>Annual Budget</label>
+	<br/><br/>
+	<table id = "finTable" name="fTable" align="center" >
+	
+           <tr>
+               <th>Client Name</th>
+               <th>Project Name</th>
+				<th>Budget</th>
+           </tr>
+			<tbody>
+			
+			</tbody>
+	</table>
+			
+	<br/><br/>
+	<a href="#main">Back</a>
+	</div>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/>
+</body>
+</html>
