@@ -1,0 +1,25 @@
+ul{
+    margin-right: 5%;
+    text-decoration: solid;
+}
+
+div.container-fluid{
+    margin-left: 5%;
+}
+
+
+#blogdata{
+    border: solid black 2px;
+    width: 1265px;
+    text-align: justify;
+    font-weight: bold;
+    word-wrap:inherit;
+    margin-left: 50px;
+    margin-right:50px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    column-gap: 90px;
+    row-gap: 50px;
+    grid-auto-flow:row;
+}
+
