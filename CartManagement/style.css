@@ -1,0 +1,66 @@
+
+h1{
+    background-color: grey;
+}
+
+#bg{
+    background-color:silver;
+}
+
+#cartSize{
+    color: maroon;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+}
+
+ul{
+    margin-right: 8%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#grids{
+    gap: 5px;
+}
+
+.col-2{
+    margin-left: 8%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.col{
+    border: solid black 2px;
+    width: 250px;
+    height: 480px;
+    padding: 20px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.itemName{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.images{
+    width: 250px;
+    height: 350px;
+}
+
+.addButton{
+    background:rgb(210, 243, 62);
+    font-weight: bold;
+}
+
+table,th,td{
+    margin-left: 7%;
+    border: solid black 2px;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    
+}

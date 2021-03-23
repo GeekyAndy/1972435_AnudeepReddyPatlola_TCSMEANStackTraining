@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppersStop</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="bg">
+    <h1 align = "center">ShoppersStop</h1>
+    <ul class="nav justify-content-end" >
+        <li class="nav-item">
+        <a href="checkout.html" class="nav-link"> Checkout </a>
+        </li>   
+    </ul>  
+    
+    <div class="row" id="cartSize">
+        <p><label class="col-2">Cart Size:</label><label id = "cart-size"></label></p>
+    </div>  
+    <br/>
+    <div id="items" class="container">
+        <div class="row" id="grids">
+            <div class="col">
+
+               <label id="itemName" class="itemName" value="Harry Potter Collection">Harry Potter Collection</label><br/>
+               <label id="itemPrice" value="120">Price: $120</label><br/>
+               <input type="image" class="images" src="Harry.jpg" /><br/>
+               <input type="submit" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('Harry Potter Collection', '120')"/>
+            
+            </div>
+            <div class="col">
+                
+                    <label id="itemName" name="itemName" class="itemName" value="The Da Vinci Code">The Da Vinci Code</label><br/>
+                    <label name="itemPrice" value="30">Price: $30</label><br/>
+                    <input type="image" class="images" src="DanBrown.jpg" /><br/>
+                    <input type="button" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('The Da Vinci Code', '30')"/>
+                  
+             </div>
+             <div class="col">
+                
+                    <label name="itemName" class="itemName" value="The Kite Runner">The Kite Runner</label><br/>
+                    <label name="itemPrice" value="20">Price: $20</label><br/>
+                    <input type="image" class="images" src="KiteRunner.jpg" /><br/>
+                    <input type="button" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('The Kite Runner', '20')"/>
+                 
+             </div>
+             <div class="col">
+                
+                    <label name="itemName" class="itemName" value="The Alchemist">The Alchemist</label><br/>
+                    <label name="itemPrice" value="12">Price: $12</label><br/>
+                    <input type="image" class="images" src="Alchemist.jpg" /><br/>
+                    <input type="button" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('The Alchemist', '12')"/>
+                 
+             </div>
+        </div>
+
+        <div class="row" id="grids">
+            <div class="col">
+                
+                    <label name="itemName" class="itemName" value="If Tomorrow Comes">If Tomorrow Comes</label><br/>
+                    <label name="itemPrice" value="15">Price: $15</label><br/>
+                    <input type="image" class="images" src="Sidney.jpg" /><br/>
+                    <input type="button" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('If Tomorrow Comes', '15')"/>
+                 
+            </div>
+            <div class="col">
+                
+                    <label name="itemName" class="itemName" value="To Kill A Mockingbird">To Kill A Mockingbird</label><br/>
+                    <label name="itemPrice" value="12">Price: $12</label><br/>
+                    <input type="image" class="images" src="MockingBird.jpg" /><br/>
+                    <input type="button" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('To Kill A Mockingbird', '12')"/>
+                  
+             </div>
+             <div class="col">
+                
+                    <label name="itemName" class="itemName" value="Killing Floor">Killing Floor</label><br/>
+                    <label name="itemPrice" value="13">Price: $13</label><br/>
+                    <input type="image" class="images" src="JackReacher.jpg" /><br/>
+                    <input type="button" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('Killing Floor', '13')"/>
+                  
+             </div>
+             <div class="col">
+                
+                    <label name="itemName" class="itemName" value="Game Of Thrones Collection">Game Of Thrones Collection</label><br/>
+                    <label name="itemPrice" value="150">Price: $150</label><br/>
+                    <input type="image" class="images" src="GOT.jpg" /><br/>
+                    <input type="button" class="addButton" name="addButton" value="Add to Cart" onclick="addItem('Game Of Thrones Collection', '150')"/>
+                 
+             </div>
+        </div>  
+    </div>
+    </div>
+</body>
+<script src="stopshop.js"></script>
+</html>
