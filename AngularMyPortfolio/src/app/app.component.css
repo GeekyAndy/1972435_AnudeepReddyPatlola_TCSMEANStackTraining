@@ -1,0 +1,16 @@
+div.body{
+    background-color: grey;
+}
+
+h2.header{
+    text-align: center;
+}
+
+a{
+    color: orangered;
+    font-size: large;
+}
+
+h3{
+    text-align: center;
+}

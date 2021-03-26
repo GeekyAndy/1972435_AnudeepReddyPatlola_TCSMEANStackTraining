@@ -1,0 +1,14 @@
+<div id="login-div">
+    <h3>Login Form</h3>
+    <form #userRef="ngForm" (ngSubmit)="checkUser(userRef.value)">
+    <label>Username</label>
+    <input type="text" name="user" ngModel/><br/>
+    <label>Password</label>
+    <input type="password" name="pass" ngModel><br/>
+    <input type="submit" value="Login"/>
+
+    <a href="signup" class="nav-link">Sign Up</a>
+
+    </form>
+    {{msg}}
+</div>

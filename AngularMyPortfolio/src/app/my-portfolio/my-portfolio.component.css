@@ -1,0 +1,35 @@
+#port-div{
+    margin-left: 30%;
+    margin-right:30%;
+    border: solid black 2px;
+    text-align: center;
+    
+}
+
+form{
+    font-weight: bold;
+}
+
+#button{
+    font-weight:bold;     
+}
+
+#table-div{
+    border: solid grey 2px;
+    text-align: center;
+    margin-inline: 100px;
+    
+}
+
+table,th{
+    border: solid black 2px;
+    
+    padding-left: 45px;
+    padding-right: 40px;
+}
+
+caption{
+    text-align:center; 
+    caption-side:top; 
+    font-weight: bolder;
+}

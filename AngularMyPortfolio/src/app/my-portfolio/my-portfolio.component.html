@@ -1,0 +1,22 @@
+<div id="port-div">
+    <h3>My Portfolio</h3>
+    <label>Welcome {{username}}</label>
+    <form #userRef="ngForm" (ngSubmit)="portUser(userRef.value)">
+        <label>Contact Name</label>
+        <input type="text" name="cname" ngModel/><br/>
+        <label>Phone No.</label>
+        <input type="text" name="pno" ngModel/><br/>
+        <input type="submit" id="button" value="Save"/>
+    </form>
+    <br/><br/>
+    <div id = "table-div"> 
+        <table id="tableId">
+            <caption>Contact Details</caption>
+            <tr>
+                <th> Name </th>
+                <th>Phone Number</th>
+            </tr>
+
+        </table>
+    </div>
+</div>
