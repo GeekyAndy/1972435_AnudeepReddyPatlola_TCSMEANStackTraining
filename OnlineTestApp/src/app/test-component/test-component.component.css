@@ -1,0 +1,31 @@
+div.inner-body{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid black 1px;
+}
+
+div.result{
+    text-align: center;
+    font-size:xx-large;
+}
+
+input.sub-button{
+    background-color: goldenrod;
+    height: 5%;
+    width: 10%;
+    font-size: larger;
+}
+
+div.result{
+    color: green;
+}
+
+div.answer{
+    max-width: fit-content;
+}
+
+div.wrong{
+    background-color: red;
+    max-width: fit-content;
+}

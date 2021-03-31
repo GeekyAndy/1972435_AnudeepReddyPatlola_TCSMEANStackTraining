@@ -1,0 +1,117 @@
+<div class="body"> 
+    <br/>
+    <div class="inner-body">
+    <form [formGroup]="formRef" (ngSubmit) = "checkAnswer()">
+    
+    <h3> 1 . In Angular, which directive connects the value of the controls to the data? </h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="ng-app" formControlName="first"/> ng-app<br/>
+        <input type="radio" value="ng-init" formControlName="first"/>ng-init<br/>
+        <input type="radio" value="ng-model" formControlName="first"/>ng-model<br/>
+        <input type="radio" value="ng-new" formControlName="first"/>ng-new<br/>
+        </div>
+    </h4>
+    
+    <br/>
+    <h3> 2 . How many instances of service will be created if you provide a custom service in two components’ “providers” section of @Component decorator?</h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="1" formControlName="second"/>1<br/>
+        <input type="radio" value="2" formControlName="second"/>2<br/>
+        <input type="radio" value="3" formControlName="second"/>3<br/>
+        <input type="radio" value="4" formControlName="second"/>4<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 3 . In Angular, you can pass data from the child component to the parent component by using: </h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="@Output()" formControlName="third"/>@Output()<br/>
+        <input type="radio" value="@Input()" formControlName="third"/>@Input()<br/>
+        <input type="radio" value="Output" formControlName="third"/>Output<br/>
+        <input type="radio" value="Input" formControlName="third"/>Input<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 4 . Which wild card is used to define the page not found route?</h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="*" formControlName="fourth"/>*<br/>
+        <input type="radio" value="**" formControlName="fourth"/>**<br/>
+        <input type="radio" value="404" formControlName="fourth"/>404<br/>
+        <input type="radio" value="^" formControlName="fourth"/>^<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 5 . Which service can be used to extract route parameters inside component? </h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="Router" formControlName="fifth"/>Router<br/>
+        <input type="radio" value="Route" formControlName="fifth"/>Route<br/>
+        <input type="radio" value="ActivatedRoute" formControlName="fifth"/>ActivatedRoute<br/>
+        <input type="radio" value="CurrentRoute" formControlName="fifth"/>CurrentRoute<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 6 . Which decorator does the directive use to listen to the host/target events?</h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="@Listener" formControlName="sixth"/>@Listener<br/>
+        <input type="radio" value="@HostListener" formControlName="sixth"/>@HostListener<br/>
+        <input type="radio" value="@OnListener" formControlName="sixth"/>@OnListener<br/>
+        <input type="radio" value="@TargetListener" formControlName="sixth"/>@TargetListener<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 7 . Which method of RouterModule should be called for providing all routes in AppModule? </h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="RouterModule.forChild" formControlName="seventh"/>RouterModule.forChild<br/>
+        <input type="radio" value="RouterModule.forRoot" formControlName="seventh"/>RouterModule.forRoot<br/>
+        <input type="radio" value="RouterModule" formControlName="seventh"/>RouterModule<br/>
+        <input type="radio" value="RouterModule.import" formControlName="seventh"/>RouterModule.import<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 8 . Which command is used to run the Static Code analysis of Angular application?</h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="ng build" formControlName="eight"/>ng build<br/>
+        <input type="radio" value="ng profile" formControlName="eight"/>ng profile<br/>
+        <input type="radio" value="ng lint" formControlName="eight"/>ng lint<br/>
+        <input type="radio" value="ng serve" formControlName="eight"/>ng serve<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 9 . Which is the correct form control class name that is set to true via [(ngModel)] whenever value is changed?</h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value=".ng-invalid" formControlName="ninth"/>.ng-invalid<br/>
+        <input type="radio" value=".ng-pending" formControlName="ninth"/>.ng-pending<br/>
+        <input type="radio" value=".ng-pristine" formControlName="ninth"/>.ng-pristine<br/>
+        <input type="radio" value=".ng-dirty" formControlName="ninth"/>.ng-dirty<br/>
+        </div>
+    </h4>
+    <br/>
+    <h3> 10 . Which component represents “target/host” DOM element inside Directive’s constructor? </h3>
+    <h4>
+        <div class="answer" [ngStyle] = {}>
+        <input type="radio" value="Element" formControlName="tenth"/>Element<br/>
+        <input type="radio" value="ElementRef" formControlName="tenth"/>ElementRef<br/>
+        <input type="radio" value="Host" formControlName="tenth"/>Host<br/>
+        <input type="radio" value="Target" formControlName="tenth"/>Target<br/>
+        </div>
+    </h4>
+    <br/>
+    <br/>
+    <input type="submit" class="sub-button" value="Submit"/>
+
+    </form>
+    <br/><br/>
+    <div class="result">
+        <h3>Result:{{counter}}/10 : {{result}}</h3>
+    </div>
+    
+    </div>
+</div>
