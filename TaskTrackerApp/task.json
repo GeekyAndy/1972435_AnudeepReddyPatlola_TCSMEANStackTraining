@@ -1,0 +1,40 @@
+{
+  "tasksForEmployees": [
+    {
+      "id": 100,
+      "name": "Ajay",
+      "task": "To complete the project",
+      "deadline": "2021-04-01"
+    },
+    {
+      "id": "250",
+      "name": "Krithin",
+      "task": "To sleep peacefully",
+      "deadline": "2021-03-31"
+    },
+    {
+      "id": "10",
+      "name": "Jini",
+      "task": "To cook deliciously",
+      "deadline": "2021-03-31"
+    },
+    {
+      "id": "1234",
+      "name": "Chaitu",
+      "task": "To study for the exam.",
+      "deadline": "2021-04-20"
+    },
+    {
+      "id": "1001",
+      "name": "Andy",
+      "task": "To complete and submit the Task Tracker project before deadline.",
+      "deadline": "2021-03-31"
+    },
+    {
+      "id": "1005",
+      "name": "Karthik",
+      "task": "To submit the Online Exam Application successfully.",
+      "deadline": "2021-03-31"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.cardClass{
+    border: solid 1px black;
+    margin: 2%;
+    text-align: center;
+}
+
+.formClass{
+    border: solid 2px black;
+    margin-inline: 20%;
+}

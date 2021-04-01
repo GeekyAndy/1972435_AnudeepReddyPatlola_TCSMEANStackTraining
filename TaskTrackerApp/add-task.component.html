@@ -1,0 +1,33 @@
+<div>
+    <form #taskRef="ngForm" (ngSubmit)="addUser(taskRef.value)">
+    <mat-card class="cardClass">
+        <mat-card-header style="text-align: center;">
+            <mat-card-title>To-do Tasks</mat-card-title>
+        </mat-card-header>
+        <div class="formClass">
+        <mat-form-field>
+            <mat-label>Id</mat-label><br/>
+            <input matInput type="text" name="id" ngModel/>
+        </mat-form-field><br/>
+        <mat-form-field>
+            <mat-label>Name</mat-label><br/>
+            <input matInput type="text" name="name" ngModel/><br/>
+        </mat-form-field><br/>
+        <mat-form-field>
+            <mat-label>Task</mat-label>
+            <textarea matInput name="task" ngModel></textarea><br/>
+        </mat-form-field><br/>
+        <mat-form-field>
+            <mat-label>Deadline</mat-label>
+            <input matInput type="date" name="deadline" ngModel /><br/>
+        </mat-form-field>
+        <mat-card-actions>
+            <button type = "submit" mat-raised-button color="primary">Submit</button>
+            <button mat-raised-button color="secondary">Reset</button>
+        </mat-card-actions>
+        </div>
+    </mat-card>
+    </form>
+    <hr/>
+   
+</div>
