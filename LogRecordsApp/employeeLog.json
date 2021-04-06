@@ -1,0 +1,28 @@
+{
+  "First Name": "Harry",
+  "Last Name": "Potter",
+  "Gender": "Male",
+  "Email": "harry@hogwarts.com",
+  "Time Stamp": "2021-4-5 17:43:17"
+}
+{
+  "First Name": "Hermoine",
+  "Last Name": "Granger",
+  "Gender": "Female",
+  "Email": "herm@hogwarts.com",
+  "Time Stamp": "2021-4-5 17:43:43"
+}
+{
+  "First Name": "Ron",
+  "Last Name": "Weasley",
+  "Gender": "Male",
+  "Email": "ron@hogwarts.com",
+  "Time Stamp": "2021-4-5 17:44:0"
+}
+{
+  "First Name": "Alfred",
+  "Last Name": "Dumbeldore",
+  "Gender": "Male",
+  "Email": "dean@hogwarts.com",
+  "Time Stamp": "2021-4-5 17:44:34"
+}
