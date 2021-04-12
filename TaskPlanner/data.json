@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "taskid": "101",
+            "empid": "1975678",
+            "empName": "Harry",
+            "task": "Create a table"
+        },
+        {
+            "taskid": "102",
+            "empid": "2653902",
+            "empName": "Hermoine ",
+            "task": "Add records to the table"
+        },
+        {
+            "taskid": "103",
+            "empid": "5267368",
+            "empName": "Ron",
+            "task": "Create additional records"
+        },
+        {
+            "taskid": "104",
+            "empid": "6289203",
+            "empName": "Hagrid",
+            "task": "Find the logs"
+        },
+        {
+            "taskid": "105",
+            "empid": "92080154",
+            "empName": "Dumbeldore",
+            "task": "Override the table"
+        },
+        {
+            "taskid": "106",
+            "empid": "54657687",
+            "empName": "Voldemort",
+            "task": "Drop the table"
+        }
+    ]
+}
