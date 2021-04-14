@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "/socket.io/socket.io.js"></script>
+    
+</head>
+<body style="text-align: center;">
+    <h2>Welcome to Socket IO Chat Application</h2>
+    <hr/>
+    <form id="form" action="">
+        <label>Name: </label>
+        <input id="input" /><br/><br/>
+        <label>Message: </label>
+        <textarea id="message" ></textarea><br/>
+        <button>Submit</button>
+    </form>
+    <script type="text/JavaScript">
+        var socket = io();
+    
+        var form = document.getElementById('form');
+        var userName = document.getElementById('input');
+        var message = document.getElementById('message');
+    
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            socket.emit('Chat', "Hello "+userName.value);
+            socket.emit('Chat', "Your "+message.value);
+            //userName.value = '';
+            //message.value='';
+            
+        });
+        </script>
+</body>
+</html>
